@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 24, 2020 at 12:45 AM
+-- Generation Time: Aug 24, 2020 at 12:49 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.5
 
@@ -18,19 +18,19 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `members`
+-- Database: `peaky`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `personal`
+-- Table structure for table `birth`
 --
 
-CREATE TABLE `personal` (
+CREATE TABLE `birth` (
   `id` int(11) NOT NULL,
   `age` int(11) NOT NULL,
-  `relatives` varchar(45) NOT NULL
+  `relatives` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
@@ -38,9 +38,9 @@ CREATE TABLE `personal` (
 --
 
 --
--- Indexes for table `personal`
+-- Indexes for table `birth`
 --
-ALTER TABLE `personal`
+ALTER TABLE `birth`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -48,9 +48,9 @@ ALTER TABLE `personal`
 --
 
 --
--- AUTO_INCREMENT for table `personal`
+-- AUTO_INCREMENT for table `birth`
 --
-ALTER TABLE `personal`
+ALTER TABLE `birth`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
