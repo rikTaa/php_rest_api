@@ -21,11 +21,11 @@
         </div>
     </header>
 
-    <form action="" method="post" class="search">
+    <!-- <form action="" method="post" class="search">
         <label>Search</label>
         <input type="text" name="search">
         <input type="submit" name="submit">
-    </form>
+    </form> -->
 
     <?php
 
